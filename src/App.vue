@@ -1,6 +1,6 @@
 <template>
-    <div id="text">
-        {{text}}
+    <div class="App">
+        <h2>{{text}}</h2>
     </div>
 </template>
 <script>
@@ -15,7 +15,8 @@ export default {
 <style>
 @import './assets/css/index.css';
 
-#text {
+h2 {
+    text-align: center;
     color: red;
 }
 </style>
