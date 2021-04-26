@@ -1,7 +1,7 @@
 # yyd-vue-selfStart
 从0开始搭建此脚手架步骤：
 
-1、npm init。全部回车，初始化项目，生成package.json
+1、创建项目文件夹，在文件夹下npm init。全部回车，初始化项目，生成package.json
 
 2、cnpm i vue -S     安装运行依赖
 
