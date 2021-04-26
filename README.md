@@ -1,5 +1,5 @@
 # yyd-vue-selfStart
-从0开始搭建此脚手架步骤：
+使用webpack从0开始搭建vue项目步骤：
 
 1、创建项目文件夹，在文件夹下npm init。全部回车，初始化项目，生成package.json
 
