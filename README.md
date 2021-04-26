@@ -5,7 +5,7 @@
 
 2、cnpm i vue -S     安装运行依赖
 
-3、cnpm i css-loader file-loader url-loader vue-loader html-webpack-plugin vue-template-compiler cross-env webpack@4.46.0 webpack-cli@3.3.12 webpack-dev-server@3.11.2 -D    安装开发依赖
+3、cnpm i css-loader style-loader file-loader url-loader vue-loader html-webpack-plugin@4.5.2 webpack@4.46.0 webpack-cli@3.3.12 webpack-dev-server@3.11.2 vue-template-compiler cross-env -D     安装开发依赖
 
 4、在package.json文件的scripts中添加命令
     "build": "cross-env NODE_ENV=production webpack --config webpack.config.js",
