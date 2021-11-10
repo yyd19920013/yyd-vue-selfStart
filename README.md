@@ -3,9 +3,9 @@
 
 1、创建项目文件夹，在文件夹下npm init。全部回车，初始化项目，生成package.json
 
-2、cnpm i vue -S     安装运行依赖
+2、cnpm i vue@2.6.12 -S     安装运行依赖
 
-3、cnpm i css-loader style-loader file-loader url-loader vue-loader html-webpack-plugin@4.5.2 webpack@4.46.0 webpack-cli@3.3.12 webpack-dev-server@3.11.2 vue-template-compiler cross-env -D     安装开发依赖
+3、cnpm i css-loader@5.2.4 style-loader@2.0.0 file-loader@6.2.0 url-loader@4.1.1 vue-loader@15.9.6 html-webpack-plugin@4.5.2 webpack@4.46.0 webpack-cli@3.3.12 webpack-dev-server@3.11.2 vue-template-compiler@2.6.12 cross-env -D     安装开发依赖
 
 4、在package.json文件的scripts中添加命令
     "build": "cross-env NODE_ENV=production webpack --config webpack.config.js",
